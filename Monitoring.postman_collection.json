@@ -1,0 +1,48 @@
+{
+  "info": {
+    "_postman_id": "c8b1c8b4-6b75-440a-8daf-b6bfea7275b2",
+    "name": "Monitoring",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "59052265",
+    "_collection_link": "https://go.postman.co/collection/59052265-c8b1c8b4-6b75-440a-8daf-b6bfea7275b2?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "GET",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Response time < 800ms\", function () {\r",
+              "    pm.expect(pm.response.responseTime).to.be.below(800);\r",
+              "});"
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://gorest.co.in/public/v2/users",
+          "protocol": "https",
+          "host": [
+            "gorest",
+            "co",
+            "in"
+          ],
+          "path": [
+            "public",
+            "v2",
+            "users"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
