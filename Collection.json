@@ -210,7 +210,8 @@
                 "exec": [
                   "pm.test(\"Status 204\", function () {\r",
                   "    pm.response.to.have.status(204);\r",
-                  "});"
+                  "});\r",
+                  "postman.setNextRequest(\"Request 7\");"
                 ],
                 "type": "text/javascript",
                 "packages": {},
