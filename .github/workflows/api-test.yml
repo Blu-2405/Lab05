@@ -23,4 +23,4 @@ jobs:
         newman run Collection.json \
         -e Environment.json \
         -d users.csv \
-        --env-var token=${{ secrets.GOREST_TOKEN }}
+        --env-var token=72577c27b4e4d53c63f9e84942ad70f8c139ee8a6bafd5055acdb669dcd75011
