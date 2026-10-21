@@ -1,0 +1,28 @@
+{
+	"id": "2cbe5d49-e076-46a1-aa7c-2ffce3f2dddf",
+	"name": "2474802010157_TranKhanhHung_GoRest_Env",
+	"values": [
+		{
+			"key": "userId",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "duplicateEmail",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "token",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"color": null,
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2026-10-21T07:41:05.089Z",
+	"_postman_exported_using": "Postman/12.33.2-261021-0231"
+}
