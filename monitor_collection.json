@@ -15,8 +15,7 @@
           "script": {
             "exec": [
               "pm.test(\"Response time < 1000ms\", function () {\r",
-              "    pm.expect(pm.response.responseTime).to.be.below(800
-              );\r",
+              "    pm.expect(pm.response.responseTime).to.be.below(800);\r",
               "});"
             ],
             "type": "text/javascript",
